@@ -1,0 +1,31 @@
+
+<div class="col-md-12">
+    <h2>Departments</h2>
+
+    <table class ="table">
+        <thead>
+            <tr>
+                <th scope="col">Department Number</th>
+                <th scope="col">Department Name</th>
+            </tr>
+        </thead>
+
+        <tbody>
+          {{#each departments}}  
+            <tr>
+                <td><a href="/employees?department={{departmentId}}">{{departmentId}}</a></td>
+                <td><a href="/employees?department={{departmentId}}">{{departmentName}}</a></td>
+            </tr>
+           {{/each}} 
+        </tbody>
+    </table>
+    
+   
+
+</div>
+
+{{#unless departments}}
+    <div class="col-md-12 text-center">
+         <strong>{{message}}</strong>
+    </div>
+{{/unless}}

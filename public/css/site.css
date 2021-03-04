@@ -1,0 +1,55 @@
+/*******************************************************************
+  * WEB322 – Assignment 03
+  * I declare that this assignment is my own work
+   in accordance with Seneca Academic Policy. 
+   No part of this assignment has been copied manually 
+   or electronically from any other source 
+   (including 3rd party web sites) or distributed to other students.
+   * Name: Dure Shawar Abbas 
+     Student ID: 010109148
+     Date:22/10/2020 
+     Online(Heroku)Link: https://web322-assignment2nd.herokuapp.com/
+********************************************************************************/
+
+body{
+    background-color: #f8efd4;
+    background-image: url("/cssimages/images.jpg");
+    
+}
+
+
+.navbar-brand{
+    font-family: 'Merienda One', cursive;
+    background-color: #b2deec;
+
+}
+
+
+.navbar-nav{
+    font-family: 'Rammetto One', cursive;
+    background-color: #e5df88 ;
+}
+
+.navbar-collapse{
+    background-color: #66bfbf
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    background-color:#d9ecf2;
+}
+
+#comingsoon{
+   font-size: large;
+    font-family: 'Kaushan Script', cursive;
+}
+
+p{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+#addEmpNav {
+    font-family: 'Merienda One', cursive;
+    background-color: #b2deec;
+}
