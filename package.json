@@ -14,5 +14,13 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "multer": "^1.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8sagh8/staffs-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/8sagh8/staffs-app/issues"
+  },
+  "homepage": "https://github.com/8sagh8/staffs-app#readme"
 }
